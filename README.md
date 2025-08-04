@@ -248,7 +248,7 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 ## 📄 License
 
-MIT © [Your Name](https://github.com/SkullCrawler)
+MIT © [Rayyan Waseem](https://github.com/SkullCrawler)
 
 ## 🆘 Support
 
