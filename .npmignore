@@ -1,0 +1,47 @@
+# Source files (only ship built dist/)
+src/
+examples/
+docs/
+
+# Development files
+.github/
+rollup.config.js
+tsconfig.json
+jest.config.js
+eslint.config.js
+prettier.config.js
+.eslintrc*
+.prettierrc*
+
+# Test files
+**/*.test.ts
+**/*.test.tsx
+**/__tests__/
+coverage/
+
+# Development dependencies
+node_modules/
+
+# Environment files
+.env*
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Cache
+.npm
+.eslintcache
+.rollup.cache/
+
+# Temporary files
+tmp/
+temp/

@@ -1,0 +1,65 @@
+{
+  "name": "react-env-secrets",
+  "version": "1.0.0",
+  "description": "A zero-config React hook for environment variables - drop-in replacement for process.env",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "prepublishOnly": "npm run build",
+    "lint": "eslint src --ext .ts,.tsx",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "react",
+    "environment",
+    "env",
+    "environment-variables",
+    "react-hook",
+    "typescript",
+    "zero-config",
+    "dotenv",
+    "process-env"
+  ],
+  "author": {
+    "name": "Rayyan Waseem",
+    "email": "rayyanwaseem.live@gmail.com",
+    "url": "https://github.com/SkullCrawler"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkullCrawler/react-env-secrets.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SkullCrawler/react-env-secrets/issues"
+  },
+  "homepage": "https://github.com/SkullCrawler/react-env-secrets#readme",
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.0",
+    "@types/react": "^18.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0",
+    "react": "^18.0.0",
+    "rollup": "^3.0.0",
+    "rollup-plugin-typescript2": "^0.35.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
