@@ -1,7 +1,5 @@
 // Type definitions for react-env-secrets
 
-import React from 'react';
-
 /**
  * Environment variables object with string values
  */
